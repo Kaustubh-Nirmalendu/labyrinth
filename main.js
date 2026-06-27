@@ -39,7 +39,7 @@ function random(x, y, digits = 0) {
 
 const unit = width / 12;
 
-let currentScreen = {x: 8, y: -1};
+let currentScreen = {x: 0, y: 0};
 
 const screens = {
     "def": {levelData: [
